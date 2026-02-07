@@ -1,0 +1,36 @@
+body{
+    background-color: #0f172a;
+}
+nav{
+    background-color: #22d3ee;
+}
+img{
+    width: 500px;
+    height: 600px;
+}
+div{
+    display: flex;
+}
+p{
+    color: #ffffff;
+    padding-top: 90px;
+}
+.Title{
+    color: #ffffff;
+    padding-top: 130px;
+    font-size: 50px;
+}
+.copy{
+    padding-top: 190px;
+    font-size: 20px;
+}
+
+.mainali{
+    padding-left: 70px;
+    color: #ffffff;
+    padding-top: 70px;
+}
+.pen{
+    padding-left: 50px;
+   
+}

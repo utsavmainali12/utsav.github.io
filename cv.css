@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    min-height: 100vh;
+    padding: 40px 15px;
+}
+
+/* Main Container */
+.cv-container {
+    max-width: 900px;
+    margin: auto;
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 30px 70px rgba(0, 0, 0, 0.25);
+    padding: 40px;
+}
+
+/* Header */
+.cv-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.cv-header h1 {
+    font-size: 34px;
+    color: #333;
+}
+
+.cv-header h2 {
+    font-size: 26px;
+    color: #667eea;
+}
+
+.cv-header p {
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+}
+
+/* Card Sections */
+.card {
+    margin-bottom: 35px;
+}
+
+.card h3 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 15px;
+    border-left: 5px solid #667eea;
+    padding-left: 12px;
+}
+
+/* Personal Info Table */
+.info-table {
+    width: 100%;
+}
+
+.info-table td {
+    padding: 8px 10px;
+    font-size: 14px;
+}
+
+.info-table td:first-child {
+    font-weight: 600;
+    color: #333;
+    width: 35%;
+}
+
+/* Education Table */
+.edu-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.edu-table th,
+.edu-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    text-align: center;
+}
+
+.edu-table th {
+    background: #667eea;
+    color: white;
+}
+
+/* Lists */
+.list {
+    list-style: none;
+}
+
+.list li {
+    background: #f4f5ff;
+    margin-bottom: 10px;
+    padding: 12px 15px;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+/* Declaration */
+.declaration {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+}
+
+.declaration p {
+    font-size: 13px;
+    color: #555;
+}

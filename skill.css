@@ -1,0 +1,78 @@
+/* Skills Section */
+.skills {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.skills h2 {
+    font-size: 32px;
+    color: #222;
+    margin-bottom: 5px;
+}
+
+.skills-subtitle {
+    font-size: 15px;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+/* Grid */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 25px;
+}
+
+/* Skill Card */
+.skill-box {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: #fff;
+    padding: 30px 25px;
+    border-radius: 20px;
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.25);
+    transition: all 0.35s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Glow effect */
+.skill-box::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255,255,255,0.15), transparent);
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.skill-box:hover::before {
+    opacity: 1;
+}
+
+/* Hover */
+.skill-box:hover {
+    transform: translateY(-10px) scale(1.02);
+}
+
+/* Icon */
+.skill-box .icon {
+    font-size: 40px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+/* Title */
+.skill-box h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Text */
+.skill-box p {
+    font-size: 14px;
+    line-height: 1.6;
+    opacity: 0.95;
+}
